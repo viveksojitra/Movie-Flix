@@ -1,0 +1,39 @@
+/* Styling the form and making it consistent with other pages */
+form input, form textarea {
+  border: 1px solid #9CA3AF;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #F9FAFB;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #F59E0B;
+}
+
+label {
+  color: #111827;
+  font-weight: bold;
+}
+
+.card{
+  box-shadow: rgba(245, 158, 11, 0.6) 0px 2px 8px 0px;
+}
+
+.btn {
+  position: relative;
+  transform: translateX(300%);
+  background-color: #1F2937;
+  color: white;
+  border: 1px solid #1F2937;
+}
+
+.btn:hover {
+  color: #1F2937;
+  background-color: #FBBF24;
+  border: 1px solid #1F2937;
+}
+
+small {
+  color: #6B7280;
+}

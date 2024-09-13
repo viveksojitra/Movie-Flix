@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  letter-spacing: .3px;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #1F2937;
+  color: #F59E0B;
+}
+
+.nav-container{
+  height: auto;
+  background-color: #F3F4F6;
+}
+
+.icon-house, .icon-add {
+  background-color: #1F2937;
+  color: #F3F4F6;
+  transition: all 0.3s ease;
+}
+
+.icon-house:hover, .icon-add:hover {
+  background-color: #F59E0B;
+  color: #1F2937;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1F2937;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #F59E0B;
+}
+
+h1 {
+  color: #F59E0B;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-title{
+  color: #1F2937;
+}

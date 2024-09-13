@@ -1,0 +1,47 @@
+.movie-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  object-fit: cover;
+  height: 520px;
+}
+
+.movie-card .card-title {
+  color: #F59E0B;
+}
+
+.movie-card .card-text {
+  color: #6B7280;
+}
+
+.icon-star{
+  color: #F59E0B;
+}
+
+.card-body{
+  display: none;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.movie-card:hover .card-body{
+  display: block;
+  opacity: 1;
+}
+
+.btn {
+  padding: 6px 8px;
+  transition: background-color 0.3s ease;
+}

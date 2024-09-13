@@ -1,0 +1,28 @@
+form input, form textarea {
+  border: 1px solid #9CA3AF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #F59E0B;
+}
+
+.card{
+  box-shadow: rgba(245, 158, 11, 0.6) 0px 2px 8px 0px;
+}
+
+.btn {
+  position: relative;
+  transform: translateX(300%);
+  background-color: #1F2937;
+  color: white;
+  border: 1px solid #1F2937;
+}
+
+.btn:hover {
+  color: #1F2937;
+  background-color: #FBBF24;
+  border: 1px solid #1F2937;
+}
