@@ -64,7 +64,7 @@ Movie-Flix/
 │
 ├── config/           # Configuration for Multer
 ├── controllers/      # Request handlers and logic
-├── Database/         # Connection with MongoDB database
+├── database/         # Connection with MongoDB database
 ├── models/           # Mongoose schemas
 ├── public/           # Static files (CSS, images)
 ├── routes/           # Express routes
