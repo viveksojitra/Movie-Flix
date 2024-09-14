@@ -49,8 +49,8 @@
           <div class="card-body d-flex flex-column justify-content-between h-100 rounded">
             <div class="mt-3">
               <div class="d-flex justify-content-between align-items-center">
-                <h5 class="card-title m-0 mb-4"><%= movie.title %></h5>
-                <h5 class="text-white m-0 mb-4">
+                <h5 class="card-title m-0 mb-2 text-capitalize"><%= movie.title %></h5>
+                <h5 class="text-white m-0 mb-2">
                   <div class="d-flex align-items-center">
                     <i class="icon-star d-flex p-0 m-0 me-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
@@ -63,10 +63,11 @@
                   </div>
                 </h5>
               </div>
+              <h6 class="text-white-50"><%= movie.releaseDate %></h6>
               <p class="card-text"><%= movie.description %></p>
             </div>
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="d-flex text-white"><%= movie.genre %></h5>
+              <h5 class="d-flex text-white text-capitalize"><%= movie.genre %></h5>
               <div class="d-flex">
                 <a href="/edit/<%= movie._id %>" class="btn btn-warning btn-edit me-2">
                   <i>

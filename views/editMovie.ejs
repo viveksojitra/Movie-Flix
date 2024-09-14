@@ -51,8 +51,8 @@
             <textarea id="description" name="description" class="form-control" placeholder="Enter movie description" rows="3" required><%= movie.description %></textarea>
           </div>
           <div class="mb-3">
-            <label for="releaseDate" class="form-label">Release Date</label>
-            <input type="date" id="releaseDate" name="releaseDate" class="form-control" value="<%= movie.releaseDate %>" required>
+            <label for="releaseDate" class="form-label">Year of Release</label>
+            <input type="number" id="releaseDate" name="releaseDate" class="form-control" value="<%= movie.releaseDate %>" required>
           </div>
           <div class="mb-3">
             <label for="genre" class="form-label">Genre</label>
